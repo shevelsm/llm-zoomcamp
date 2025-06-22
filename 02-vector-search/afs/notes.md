@@ -1,4 +1,6 @@
-# Vector search
+# Module 2 Notes
+
+## Vector search
 
 By now we were using a basic key words search based method. Bat = bat in a cave
 
@@ -14,3 +16,11 @@ It makes sense to choose a model that produces small-to-moderate-sized embedding
 
 Let’s pick a random question from the course data.
 As you remember, we didn’t upload the questions to Qdrant.
+
+## Hybrid search
+
+А hybrid search—combines traditional keyword-based search methods (like BM25) with vector-based semantic search to leverage the strengths of both approaches.
+
+Does BM25 works good only for shot queries? Not with `Natural language like queries`. Why?
+
+There are two terms important for Hybrid Search: **fusion** and **reranking**.
